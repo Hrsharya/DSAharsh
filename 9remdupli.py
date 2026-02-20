@@ -1,0 +1,6 @@
+arr=[1,2,3,4,5,5,5,6,7,7,8,9,9,10]
+aj=[]
+for i in arr:
+    if i not in aj:
+        aj.append(i)    
+print(aj)
