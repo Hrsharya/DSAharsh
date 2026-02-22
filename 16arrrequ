@@ -1,0 +1,4 @@
+def are_equal(arr1, arr2):
+    if len(arr1) != len(arr2):
+        return False
+    return sorted(arr1) == sorted(arr2)

@@ -1,0 +1,5 @@
+def array_operations(arr1, arr2):
+    set1, set2 = set(arr1), set(arr2)
+    intersection = list(set1 & set2)
+    union = list(set1 | set2)
+    return intersection, union
